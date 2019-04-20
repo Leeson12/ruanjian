@@ -1,0 +1,14 @@
+import static org.junit.Assert.*;
+
+import org.junit.Test;
+
+public class GetMaxAddOfArrayTest {
+	int[] array={1,5,-10,5};
+	int[] arrnull={};
+	@Test
+	public void testFindMax() {
+		assertEquals(6,GetMaxAddOfArray.FindMax(array));
+		assertEquals(0,GetMaxAddOfArray.FindMax(arrnull));
+	}
+
+}
